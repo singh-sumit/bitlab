@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "core-service"
+version = "0.1.0"
+description = ""
+authors = ["sumit singh <singhsumit9824@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = {extras = ["standard"], version = "^0.115.0"}
+beanie = "^1.27.0"
+envyaml = "^1.10.211231"
+passlib = "^1.7.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

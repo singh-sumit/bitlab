@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  mongodb:
+    image: "mongo:latest"
+    container_name: "bitlab-mongodb-container"
+    ports:
+      - "27017:27017"
+    volumes:
+      - "/docker-vol/mongo_data:/data/db"

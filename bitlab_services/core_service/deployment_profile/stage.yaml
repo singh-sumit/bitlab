@@ -1,0 +1,5 @@
+db:
+  name: '${DB_NAME}'
+  host: "localhost"
+  port: 27017
+  username: ""

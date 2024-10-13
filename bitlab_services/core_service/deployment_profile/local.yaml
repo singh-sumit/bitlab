@@ -1,0 +1,8 @@
+project:
+  name: "Bitlab Core Service API"
+db:
+  name: 'bitlab-db'
+  host: "localhost"
+  port: 27017
+  username: ""
+  password: ""
