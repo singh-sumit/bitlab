@@ -3,7 +3,6 @@ import { ThemeConfig } from "antd";
 const themeConf: ThemeConfig = {
     "token": {
         "colorPrimary": "#161010",
-        "colorInfo": "#161010",
         "fontSize": 14,
         "fontFamily": "Montserrat",
         "borderRadius": 12,
